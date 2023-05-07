@@ -27,7 +27,7 @@ const styleIn = {
 		}
 }
 
-function SimpleCounter(props){
+function SecondCounter(props){
     return(
         <main className = "container-flex">
 			<div style = {styleIn.general}>
@@ -45,7 +45,7 @@ function SimpleCounter(props){
     );
 }
 
-SimpleCounter.propTypes = {
+SecondCounter.propTypes = {
 	style : PropTypes.string,
 	numberOne : PropTypes.number,
 	numberTwo : PropTypes.number,	
@@ -55,4 +55,4 @@ SimpleCounter.propTypes = {
 	numberSix : PropTypes.number
 }
 
-export default SimpleCounter;
+export default SecondCounter;
